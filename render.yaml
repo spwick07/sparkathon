@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: sparkathon-frontend
+    env: node
+    buildCommand: npm run build
+    staticPublishPath: dist
